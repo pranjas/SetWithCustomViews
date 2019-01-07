@@ -13,6 +13,7 @@
 		5B93022221E0A5E500E07901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B93022121E0A5E500E07901 /* Assets.xcassets */; };
 		5B93022521E0A5E500E07901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B93022321E0A5E500E07901 /* LaunchScreen.storyboard */; };
 		5B93023021E0A5E500E07901 /* SetCardGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B93022F21E0A5E500E07901 /* SetCardGameTests.swift */; };
+		5B93023B21E0A60500E07901 /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B93023A21E0A60500E07901 /* SetCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5B93022B21E0A5E500E07901 /* SetCardGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetCardGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B93022F21E0A5E500E07901 /* SetCardGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardGameTests.swift; sourceTree = "<group>"; };
 		5B93023121E0A5E500E07901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B93023A21E0A60500E07901 /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		5B93021921E0A5E400E07901 /* SetCardGame */ = {
 			isa = PBXGroup;
 			children = (
+				5B93023A21E0A60500E07901 /* SetCard.swift */,
 				5B93021A21E0A5E400E07901 /* AppDelegate.swift */,
 				5B93021C21E0A5E400E07901 /* ViewController.swift */,
 				5B93021E21E0A5E400E07901 /* Main.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B93023B21E0A60500E07901 /* SetCard.swift in Sources */,
 				5B93021D21E0A5E400E07901 /* ViewController.swift in Sources */,
 				5B93021B21E0A5E400E07901 /* AppDelegate.swift in Sources */,
 			);
